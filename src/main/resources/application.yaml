@@ -1,0 +1,14 @@
+mybatis:
+  mapper-locations: classpath:mapper/*xml
+  type-aliases-package: com.xmy.springbootvuebookdemo.mybatis.entity
+server:
+  port: 8081
+spring:
+  application:
+    name: ui-test
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: defaultDataSource
+    password: xuehuafeiwu
+    url: jdbc:mysql://localhost:3306/library?serverTimezone=UTC
+    username: root
